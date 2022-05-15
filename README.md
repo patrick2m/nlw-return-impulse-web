@@ -1,69 +1,42 @@
-![cover](.github/cover.png?style=flat)
-
-
 ## 💻 Projeto
-Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jogar com os amigos. Crie grupos para jogar seus games favoritos com seus amigos com esse App que possui autenticação com Discord.
+Aplicativo para criar um recado de problema, ideia ou comentário, criando uma imagem com o que a tem no momento na tela, mandando para o servidor, como botão fixo no canto direito da tela, responsivo, para web e mobile, feito no projeto da Rocketseat chamado Next Level Week - Return, com o intuito de criar uma aplicação simples porém robusta, em uma semana, feito em maio de 2022.
 
 ## ✨ Tecnologias
 
--   [ ] React Native
+-   [ ] Vite
 -   [ ] Typescript
 -   [ ] Expo
--   [ ] Context API
--   [ ] Async Storage
--   [ ] Vector Icons
 -   [ ] React Native Svg e Svg Transform
 -   [ ] Axios
--   [ ] Gradient colors
--   [ ] OAuth2 Discord 
+-   [ ] Gradient colors 
 -   [ ] Expo Google Fonts
--   [ ] React Navigation Stack
 -   [ ] React Native Gesture Handler
 -   [ ] Expo Authentication
--   [ ] React Native Share
--   [ ] Deep Link
+-   [ ] Postgresql
+-   [ ] Vercel para upar o Front-end web
+-   [ ] Railway para upar o Back-end node
 
 
 ## :hammer_and_wrench: Features 
 
--   [ ] Autenticação Social OAuth2 com servidor do Discord.
--   [ ] Obtém perfil do usuário cadastro no Discord (username e avatar);
--   [ ] Lista os servidores do Discord que o usuário faz parte;
--   [ ] Permite realizar o agendamento de partidas;
--   [ ] Permite filtrar as partidas por categoria;
--   [ ] Exibe se a partida foi agendada em um servidor próprio (anfitrião) ou em servidores de outros (convidado);
--   [ ] Compartilha o convite para ingressar no servidor do usuário;
--   [ ] Permite redirecionar o usuário para o seu próprio servidor;
--   [ ] Disponibiliza a função de Logout.
+-   [ ] Criar um sistema de recados, podendo ser um problema, ideia ou comentário .
+-   [ ] Obtém uma foto da tela "printscreen" para auxiliar quem recebe de entender o recado recebido;
+-   [ ] Manda para o back-end (servidor) o tipo de recado, o comentário e a foto em formato de texto;
+-   [ ] Funções sincronizadas para que o usuário só possa enviar um recado por vez, desativando o botão enquanto o recado é enviado;
+-   [ ] Permite ao usuário a opção de mandar ou não a foto "printscreen" junto com o recado;
+-   [ ] Exibe se o recado foi devidamente enviado ao servidor, deixando o usuário ciente e o enviando de volta a tela inicial, pra caso deseje enviar outra;
 
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/community/file/991338130828322960). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
+Você pode visualizar o projeto através [desse link](https://nlw-return-impulse-237i6f8c8-patrick2m.vercel.app/).
 
 
 ## Executando o projeto
 
-Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
+Utilize o **npm i** ou o **npm install** para instalar as dependências do projeto.
 Em seguida, inicie o projeto.
 
-```cl
-expo start
-```
-
-Lembre-se de criar o seu App no servidor do Discord para obter as credencias de autenticação. Em seguida, defina no arquivo .env as configurações do seu App (remova o example do arquivo .env.example).
- 
- ```cl
-REDIRECT_URI=
-SCOPE=
-RESPONSE_TYPE=
-CLIENT_ID=
-CDN_IMAGE=
-```
-
-
-## 📄 Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+npm run start
 
 <br />
