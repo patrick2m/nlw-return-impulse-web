@@ -1,5 +1,5 @@
 ## 💻 Projeto
-Aplicativo para criar um recado de problema, ideia ou comentário, criando uma imagem com o que a tem no momento na tela, mandando para o servidor, como botão fixo no canto direito da tela, responsivo, para web e mobile, feito no projeto da Rocketseat chamado Next Level Week - Return, com o intuito de criar uma aplicação simples porém robusta, em uma semana, feito em maio de 2022.
+Aplicativo para criar um recado de problema, ideia ou comentário, criando uma imagem da tela, mandando para o servidor, como botão fixo no canto direito da tela, responsivo, para web e mobile, feito no projeto da Rocketseat chamado Next Level Week - Return, com o intuito de criar uma aplicação simples porém robusta, em uma semana, feito em maio de 2022.
 
 ## ✨ Tecnologias
 
